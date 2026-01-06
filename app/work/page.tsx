@@ -5,17 +5,17 @@ export default function Work() {
     <main className="min-h-screen">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-gray-100">
+          <h1 className="mb-4 text-4xl font-bold text-black dark:text-gray-100">
             Engineering Projects
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400">
+          <p className="text-lg text-gray-900 dark:text-gray-400">
             Course projects and engineering work
           </p>
         </div>
 
         {/* Engineering Projects */}
         <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
             Engineering Projects
           </h2>
           <div className="grid gap-6 md:grid-cols-2 md:items-start">

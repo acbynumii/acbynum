@@ -11,7 +11,7 @@ export default function Home() {
       <div className="mx-auto max-w-7xl px-4 pt-8 pb-16 sm:px-6 lg:px-8">
         {/* About Section */}
         <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
             About Me
           </h2>
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
@@ -24,7 +24,7 @@ export default function Home() {
                 style={{ objectPosition: 'center center' }}
               />
             </div>
-            <div className="space-y-4 text-gray-600 dark:text-gray-400">
+            <div className="space-y-4 text-gray-900 dark:text-gray-400">
               <p>
                 I am a rising sophomore studying Mechanical Engineering at Harvard University. 
                 I currently live in Hilton Head Island, South Carolina. I've developed a passion 
@@ -45,27 +45,27 @@ export default function Home() {
 
         {/* Education Section */}
         <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
             Education
           </h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold text-black dark:text-gray-100">
                 Harvard University
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 Bachelor of Science: Mechanical Engineering, GPA: 3.7
               </p>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 Secondary Field: Computer Science | Citation: Arabic
               </p>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 Cambridge, MA | Graduation: May 2028
               </p>
               
               {/* Relevant Coursework Subsection */}
               <div className="mt-6">
-                <h4 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
+                <h4 className="mb-4 text-lg font-semibold text-black dark:text-gray-100">
                   Relevant Coursework
                 </h4>
                 <CourseCarousel
@@ -82,16 +82,16 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold text-black dark:text-gray-100">
                 Hilton Head Island High School
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 International Baccalaureate Diploma
               </p>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 Weighted GPA: 5.276; Unweighted GPA: 4.0
               </p>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-900 dark:text-gray-400">
                 Hilton Head Island, SC | Graduation: June 2024
               </p>
             </div>
@@ -100,16 +100,16 @@ export default function Home() {
 
         {/* Current Activities Section */}
         <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
             Current Activities & Roles
           </h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Teaching Assistant for ES51: Computer-Aided Machine Design
               </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Feb 2025 – present</p>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-900 dark:text-gray-400">Feb 2025 – present</p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
                 Introduced 40+ students to topics such as CAD, 3D printing, GD&T, technical 
                 drawings, and machining (CNC and manual). Facilitated hands-on learning in weekly 
                 labs, provided office hours, and graded homework, design notebooks, and projects.
@@ -122,8 +122,8 @@ export default function Home() {
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Teaching</span>
               </div>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Harvard Rocket Propulsion Group
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -143,8 +143,8 @@ export default function Home() {
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
               </div>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Engineers Without Borders
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -160,8 +160,8 @@ export default function Home() {
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Humanitarian Engineering</span>
               </div>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Harvard Undergraduate Automotive Society
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -177,8 +177,8 @@ export default function Home() {
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Automotive Design</span>
               </div>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Harvard Society of Black Scientists and Engineers
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -199,12 +199,12 @@ export default function Home() {
 
         {/* Skills Section */}
         <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
             Skills
           </h2>
           <div className="grid gap-6 md:grid-cols-4">
             <div>
-              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="mb-3 text-lg font-semibold text-black dark:text-gray-100">
                 Technical
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
@@ -224,7 +224,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="mb-3 text-lg font-semibold text-black dark:text-gray-100">
                 Machine Shop & Fabrication
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
@@ -239,7 +239,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="mb-3 text-lg font-semibold text-black dark:text-gray-100">
                 Engineering Disciplines
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
@@ -254,7 +254,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="mb-3 text-lg font-semibold text-black dark:text-gray-100">
                 Languages & Soft Skills
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">

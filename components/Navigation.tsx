@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+// import ThemeToggle from './ThemeToggle';
 
 export default function Navigation() {
   const pathname = usePathname();
@@ -15,10 +16,10 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-950/80">
+    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white backdrop-blur-sm dark:border-gray-800 dark:bg-gray-950/80">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+          <Link href="/" className="text-xl font-semibold text-black dark:text-gray-100">
             Anthony Bynum
           </Link>
           
@@ -30,18 +31,19 @@ export default function Navigation() {
                 href={link.href}
                 className={`text-sm font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-100 ${
                   pathname === link.href
-                    ? 'text-gray-900 dark:text-gray-100'
-                    : 'text-gray-600 dark:text-gray-400'
+                    ? 'text-black dark:text-gray-100'
+                    : 'text-gray-700 dark:text-gray-400'
                 }`}
               >
                 {link.label}
               </Link>
             ))}
+            {/* <ThemeToggle /> */}
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-600 dark:text-gray-400"
+            className="md:hidden text-gray-700 dark:text-gray-400"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -74,13 +76,16 @@ export default function Navigation() {
                   onClick={() => setIsOpen(false)}
                   className={`text-base font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-100 ${
                     pathname === link.href
-                      ? 'text-gray-900 dark:text-gray-100'
-                      : 'text-gray-600 dark:text-gray-400'
+                      ? 'text-black dark:text-gray-100'
+                      : 'text-gray-700 dark:text-gray-400'
                   }`}
                 >
                   {link.label}
                 </Link>
               ))}
+              {/* <div className="pt-2">
+                <ThemeToggle />
+              </div> */}
             </div>
           </div>
         )}

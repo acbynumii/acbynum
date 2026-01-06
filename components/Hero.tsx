@@ -17,16 +17,16 @@ export default function Hero() {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 md:text-5xl">
+            <h1 className="text-4xl font-bold text-black dark:text-gray-100 md:text-5xl">
               Anthony Bynum
             </h1>
-            <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
+            <p className="mt-2 text-lg text-gray-900 dark:text-gray-400">
               Harvard College Class of 2028 | Mechanical Engineering S.B.
             </p>
-            <p className="mt-4 text-base text-gray-600 dark:text-gray-400">
+            <p className="mt-4 text-base text-gray-900 dark:text-gray-400">
               acbynum@college.harvard.edu | (843) 338-4445
             </p>
-            <p className="mt-4 text-base text-gray-600 dark:text-gray-400">
+            <p className="mt-4 text-base text-gray-900 dark:text-gray-400">
               Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:justify-start">
@@ -34,7 +34,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/anthony-bynum"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                className="flex items-center gap-2 text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
               >
                 <Image
                   src="/images/linkedin.webp"
@@ -49,7 +49,7 @@ export default function Hero() {
                 href="https://www.instagram.com/acbynumii/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                className="flex items-center gap-2 text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
               >
                 <Image
                   src="/images/instagram.png"
@@ -63,7 +63,7 @@ export default function Hero() {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                className="flex items-center gap-2 text-gray-700 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
               >
                 <svg
                   className="h-5 w-5"

@@ -84,7 +84,7 @@ export default function ProjectCard({
       )}
       <div className="p-6">
         <div className="mb-2 flex items-start justify-between">
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              <h3 className="text-xl font-semibold text-black dark:text-gray-100">
             {title}
           </h3>
           {date && (
@@ -93,7 +93,7 @@ export default function ProjectCard({
             </span>
           )}
         </div>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">{description}</p>
+        <p className="mb-4 text-gray-900 dark:text-gray-400">{description}</p>
         {tags && tags.length > 0 && (
           <div className="mb-4 flex flex-wrap gap-2">
             {tags.map((tag) => (

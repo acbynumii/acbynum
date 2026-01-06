@@ -9,8 +9,8 @@ export default function WorkCard({ work }: WorkCardProps) {
     <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
       <div className="flex items-start justify-between mb-3">
         <div>
-          <h3 className="text-xl font-semibold mb-1">{work.position}</h3>
-          <p className="text-lg text-gray-700 dark:text-gray-300">{work.company}</p>
+          <h3 className="text-xl font-semibold mb-1 text-black dark:text-gray-100">{work.position}</h3>
+          <p className="text-lg text-gray-900 dark:text-gray-300">{work.company}</p>
           {work.location && (
             <p className="text-sm text-gray-500 dark:text-gray-400">{work.location}</p>
           )}
@@ -23,7 +23,7 @@ export default function WorkCard({ work }: WorkCardProps) {
       </div>
       <ul className="space-y-2 mb-4">
         {work.description.map((item, index) => (
-          <li key={index} className="text-sm text-gray-700 dark:text-gray-300 flex items-start">
+            <li key={index} className="text-sm text-gray-900 dark:text-gray-300 flex items-start">
             <span className="mr-2">•</span>
             <span>{item}</span>
           </li>

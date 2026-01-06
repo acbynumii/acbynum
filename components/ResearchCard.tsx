@@ -20,7 +20,7 @@ export default function ResearchCard({ research }: ResearchCardProps) {
         </div>
       )}
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{research.title}</h3>
+        <h3 className="text-xl font-semibold mb-2 text-black dark:text-gray-100">{research.title}</h3>
         {research.institution && (
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">{research.institution}</p>
         )}
@@ -33,7 +33,7 @@ export default function ResearchCard({ research }: ResearchCardProps) {
           {research.startDate}
           {research.endDate ? ` - ${research.endDate}` : " - Present"}
         </p>
-        <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-4">
+        <p className="text-gray-900 dark:text-gray-300 text-sm leading-relaxed mb-4">
           {research.description}
         </p>
         {research.technologies && research.technologies.length > 0 && (

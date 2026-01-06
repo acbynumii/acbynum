@@ -8,12 +8,12 @@ export default function DankiraCard() {
 
   return (
     <>
-      <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-        <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
+      <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+        <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
           Dankira
         </h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">Harvard's Habesha dance group</p>
-        <p className="mt-2 text-gray-600 dark:text-gray-400">
+        <p className="text-sm text-gray-600 dark:text-gray-400">Harvard's Habesha dance group</p>
+        <p className="mt-2 text-gray-900 dark:text-gray-400">
           Performing traditional dances in customary clothing from Ethiopian and Eritrean cultures while celebrating the culture through movement and community.
         </p>
         <div className="mt-4">

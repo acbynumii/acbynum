@@ -25,6 +25,22 @@ body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+/* Dark mode toggle - commented out
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3,
+html:not(.dark) h4,
+html:not(.dark) h5,
+html:not(.dark) h6 {
+  color: #000000 !important;
+}
+*/
+
 * {
   box-sizing: border-box;
 }

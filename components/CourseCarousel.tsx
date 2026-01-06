@@ -99,13 +99,13 @@ export default function CourseCarousel({ courses }: CourseCarouselProps) {
           >
             <div className="flex items-start justify-between">
               <div className="flex-1">
-                <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+                <h4 className="text-lg font-semibold text-black dark:text-gray-100">
                   {course.name}
                 </h4>
-                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-1 text-sm text-gray-900 dark:text-gray-400">
                   {course.code}
                 </p>
-                <p className="mt-1 text-xs text-gray-400 dark:text-gray-500">
+                <p className="mt-1 text-xs text-gray-800 dark:text-gray-500">
                   {course.semester} {course.year}
                 </p>
               </div>
