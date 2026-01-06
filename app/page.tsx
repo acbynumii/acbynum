@@ -1,24 +1,27 @@
 import Hero from '@/components/Hero';
 import Image from 'next/image';
+import DankiraCard from '@/components/DankiraCard';
+import CourseCarousel from '@/components/CourseCarousel';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
       
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 pt-8 pb-16 sm:px-6 lg:px-8">
         {/* About Section */}
         <section className="mb-16">
           <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
             About Me
           </h2>
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="relative h-64 w-full overflow-hidden rounded-lg">
+          <div className="grid gap-8 md:grid-cols-2 md:items-center">
+            <div className="relative h-80 w-full overflow-hidden rounded-lg">
               <Image
                 src="/images/lowell-house.webp"
                 alt="Lowell House"
                 fill
                 className="object-cover"
+                style={{ objectPosition: 'center center' }}
               />
             </div>
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
@@ -33,9 +36,8 @@ export default function Home() {
                 gateway Mechanical Engineering course.
               </p>
               <p>
-                Beyond the classroom, I'm involved in the Rocket Propulsion Group and the Harvard 
-                College Automotive Society, serve on the board for both HSBSE and EESA, and dance 
-                for Dankira, Harvard's Habesha dance group.
+                Beyond the classroom, I lead the fluids and integration team in the Rocket Propulsion Group, 
+                serve on the board for both HSBSE and EESA, and dance for Dankira, Harvard's Habesha dance group.
               </p>
             </div>
           </div>
@@ -55,13 +57,29 @@ export default function Home() {
                 Bachelor of Science: Mechanical Engineering, GPA: 3.7
               </p>
               <p className="text-gray-600 dark:text-gray-400">
+                Secondary Field: Computer Science | Citation: Arabic
+              </p>
+              <p className="text-gray-600 dark:text-gray-400">
                 Cambridge, MA | Graduation: May 2028
               </p>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
-                <strong>Relevant Coursework:</strong> Computer-Aided Machine Design, Intro to EE, 
-                Intro to the Mechanics of Solids, Intro to Fluid Mechanics and Transport Processes, 
-                Thermodynamics, Digital Fabrication, and Humanitarian Design Projects.
-              </p>
+              
+              {/* Relevant Coursework Subsection */}
+              <div className="mt-6">
+                <h4 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
+                  Relevant Coursework
+                </h4>
+                <CourseCarousel
+                  courses={[
+                    { name: 'Computer-Aided Machine Design', code: 'ES51', semester: 'Fall', year: '2024' },
+                    { name: 'Intro to EE', code: 'ES50', semester: 'Spring', year: '2025' },
+                    { name: 'Intro to the Mechanics of Solids', code: 'ES120', semester: 'Spring', year: '2026' },
+                    { name: 'Intro to Fluid Mechanics and Transport Processes', code: 'ES123', semester: 'Spring', year: '2026' },
+                    { name: 'Thermodynamics', code: 'ES181', semester: 'Fall', year: '2025' },
+                    { name: 'Digital Fabrication', code: 'PS70', semester: 'Fall', year: '2025' },
+                    { name: 'Humanitarian Design Projects', code: 'ES96', semester: 'Fall/Spring', year: '2025/2026' },
+                  ]}
+                />
+              </div>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
@@ -96,6 +114,13 @@ export default function Home() {
                 drawings, and machining (CNC and manual). Facilitated hands-on learning in weekly 
                 labs, provided office hours, and graded homework, design notebooks, and projects.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">GD&T</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CNC</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Teaching</span>
+              </div>
             </div>
             <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
               <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -109,6 +134,14 @@ export default function Home() {
                 and 3D printing. Co-designed a liquid rocket injector in SolidWorks, incorporating 
                 CFD analysis results to enhance combustion efficiency.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CFD</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Machining</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
+              </div>
             </div>
             <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
               <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -121,6 +154,11 @@ export default function Home() {
                 Used Revit to design and model water kiosks for EWB's Kenya project, improving 
                 clean water access in remote villages.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Revit</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Design</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Humanitarian Engineering</span>
+              </div>
             </div>
             <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
               <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -133,6 +171,11 @@ export default function Home() {
                 Designed the brake pedal system for a Formula SAE car in SolidWorks, balancing 
                 space limits with comfort and safety.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Formula SAE</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Automotive Design</span>
+              </div>
             </div>
             <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
               <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -145,13 +188,12 @@ export default function Home() {
                 Facilitating mentorship and engagement among students by coordinating bonding 
                 and peer advising programs.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
+              </div>
             </div>
-            <div className="rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-              <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
-                Dankira
-              </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Harvard's Habesha dance group</p>
-            </div>
+            <DankiraCard />
           </div>
         </section>
 
@@ -160,39 +202,67 @@ export default function Home() {
           <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
             Skills
           </h2>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-4">
             <div>
               <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
                 Technical
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
                 <li>CAD SolidWorks Design Associate (CSWA)</li>
+                <li>CAD</li>
+                <li>SolidWorks</li>
                 <li>Revit</li>
                 <li>Python</li>
                 <li>HTML, CSS, PHP</li>
                 <li>C++ (familiarity)</li>
+                <li>Arduino</li>
+                <li>ESP32</li>
+                <li>Bluetooth</li>
+                <li>Signal Processing</li>
+                <li>Software Development</li>
+                <li>EMG (Electromyography)</li>
               </ul>
             </div>
             <div>
               <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
-                Machine Shop
+                Machine Shop & Fabrication
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
-                <li>3D printer</li>
-                <li>Laser cutter</li>
+                <li>3D Printing</li>
+                <li>Laser Cutting</li>
+                <li>CNC Machining</li>
+                <li>Machining (manual)</li>
                 <li>Soldering</li>
                 <li>Mill, lathe, drill press</li>
                 <li>Bandsaw, power tools</li>
+                <li>GD&T</li>
               </ul>
             </div>
             <div>
               <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
-                Languages
+                Engineering Disciplines
+              </h3>
+              <ul className="space-y-1 text-gray-600 dark:text-gray-400">
+                <li>Mechanical Design</li>
+                <li>Electrical Systems</li>
+                <li>Robotics</li>
+                <li>CFD Analysis</li>
+                <li>Automotive Design</li>
+                <li>Biomedical Engineering</li>
+                <li>Humanitarian Engineering</li>
+                <li>Formula SAE</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
+                Languages & Soft Skills
               </h3>
               <ul className="space-y-1 text-gray-600 dark:text-gray-400">
                 <li>English (fluent)</li>
                 <li>Arabic (advanced)</li>
                 <li>Spanish (intermediate)</li>
+                <li>Leadership</li>
+                <li>Mentorship</li>
               </ul>
             </div>
           </div>

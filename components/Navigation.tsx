@@ -10,7 +10,7 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '/', label: 'About' },
-    { href: '/work', label: 'Work' },
+    { href: '/work', label: 'Engineering Projects' },
     { href: '/research', label: 'Research' },
   ];
 

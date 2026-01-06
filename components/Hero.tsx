@@ -3,15 +3,16 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative w-full py-16 md:py-24">
+    <section className="relative w-full pt-16 pb-8 md:pt-24 md:pb-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-8 md:flex-row md:items-start md:gap-12">
           <div className="relative h-48 w-48 flex-shrink-0 overflow-hidden rounded-full">
             <Image
-              src="/images/hero.jpg"
+              src="/images/profile.webp"
               alt="Anthony Bynum"
               fill
               className="object-cover"
+              style={{ objectPosition: 'center 25%' }}
               priority
             />
           </div>
@@ -23,7 +24,7 @@ export default function Hero() {
               Harvard College Class of 2028 | Mechanical Engineering S.B.
             </p>
             <p className="mt-4 text-base text-gray-600 dark:text-gray-400">
-              acbynum@college.harvard.edu | (343) 338-4445
+              acbynum@college.harvard.edu | (843) 338-4445
             </p>
             <p className="mt-4 text-base text-gray-600 dark:text-gray-400">
               Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship

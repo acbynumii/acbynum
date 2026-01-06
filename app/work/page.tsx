@@ -6,70 +6,17 @@ export default function Work() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h1 className="mb-4 text-4xl font-bold text-gray-900 dark:text-gray-100">
-            Work
+            Engineering Projects
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Engineering projects, experience, and club work
+            Course projects and engineering work
           </p>
         </div>
 
-        {/* Engineering Experience */}
+        {/* Engineering Projects */}
         <section className="mb-16">
           <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
-            Engineering Experience
-          </h2>
-          <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
-            <h3 className="mb-2 text-xl font-semibold text-gray-900 dark:text-gray-100">
-              Teaching Assistant for ES51: Computer-Aided Machine Design
-            </h3>
-            <p className="mb-4 text-sm text-gray-500 dark:text-gray-400">
-              Harvard School of Engineering and Applied Sciences | Feb 2025 – present
-            </p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Introduced 40+ students to topics such as CAD, 3D printing, GD&T, technical drawings, 
-              and machining (CNC and manual). Facilitated hands-on learning in weekly labs, provided 
-              office hours, and graded homework, design notebooks, and projects.
-            </p>
-          </div>
-        </section>
-
-        {/* Engineering Projects and Clubs */}
-        <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
-            Engineering Projects and Clubs
-          </h2>
-          <div className="grid gap-6 md:grid-cols-2">
-            <ProjectCard
-              title="Harvard Rocket Propulsion Group"
-              date="Sep 2024 – present"
-              description="Fluids and Integration Team Lead. Constructed a high-power, liquid-bipropellant rocket, using CAD, machining tools, and 3D printing. Co-designed a liquid rocket injector in SolidWorks, incorporating CFD analysis results to enhance combustion efficiency."
-              tags={['CAD', 'SolidWorks', 'CFD', '3D Printing', 'Machining']}
-            />
-            <ProjectCard
-              title="Engineers Without Borders - Kenya Project"
-              date="Sep 2025 – present"
-              description="Used Revit to design and model water kiosks for EWB's Kenya project, improving clean water access in remote villages."
-              tags={['Revit', 'Design', 'Humanitarian Engineering']}
-            />
-            <ProjectCard
-              title="Harvard Undergraduate Automotive Society"
-              date="Sep 2024 – Sep 2025"
-              description="Brake Pedal Team. Designed the brake pedal system for a Formula SAE car in SolidWorks, balancing space limits with comfort and safety."
-              tags={['SolidWorks', 'Formula SAE', 'Automotive Design']}
-            />
-            <ProjectCard
-              title="Harvard Society of Black Scientists and Engineers"
-              date="May 2025 – present"
-              description="Mentorship Chair. Facilitating mentorship and engagement among students by coordinating bonding and peer advising programs."
-              tags={['Leadership', 'Mentorship']}
-            />
-          </div>
-        </section>
-
-        {/* Course Projects */}
-        <section className="mb-16">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-gray-100">
-            Course Projects
+            Engineering Projects
           </h2>
           <div className="grid gap-6 md:grid-cols-2 md:items-start">
             <ProjectCard
