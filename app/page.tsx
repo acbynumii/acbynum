@@ -32,7 +32,7 @@ export default function Home() {
               </p>
               <p>
                 One example of that is a myoelectric bionic hand I built as part of my final project 
-                for ES50. In Spring 2025, I also served as a Course Assistant for ES51, Harvard's 
+                for my Intro to EE course. In Spring 2025, I also served as a Course Assistant for ES51, Harvard's 
                 gateway Mechanical Engineering course.
               </p>
               <p>
