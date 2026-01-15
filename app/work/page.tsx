@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/ProjectCard';
+import Image from 'next/image';
 
 export default function Work() {
   return (
@@ -285,6 +286,67 @@ stepperB.run();
               ]}
               tags={['ES50', 'EMG', 'Arduino', 'Biomedical Engineering', 'Signal Processing']}
             />
+          </div>
+        </section>
+
+        {/* Machine Components Gallery */}
+        <section className="mb-16">
+          <h2 className="mb-8 text-3xl font-bold text-black dark:text-gray-100">
+            Machine Components Gallery
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="space-y-2">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+                <Image
+                  src="/images/lathe.webp"
+                  alt="Piston on the lathe"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-900 dark:text-gray-400">
+                Piston on the lathe
+              </p>
+            </div>
+            <div className="space-y-2">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+                <Image
+                  src="/images/propellantpiston.webp"
+                  alt="Final Piston"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-900 dark:text-gray-400">
+                Final Piston
+              </p>
+            </div>
+            <div className="space-y-2">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+                <Image
+                  src="/images/waterjet1.webp"
+                  alt="Bulkheads and Brackets (Water Jet Cut)"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-900 dark:text-gray-400">
+                Bulkheads and Brackets (Water Jet Cut)
+              </p>
+            </div>
+            <div className="space-y-2">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+                <Image
+                  src="/images/waterjet2.webp"
+                  alt="Flange Plates for the Thrust Chamber (Water Jet Cut)"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="text-center text-sm text-gray-900 dark:text-gray-400">
+                Flange Plates for the Thrust Chamber (Water Jet Cut)
+              </p>
+            </div>
           </div>
         </section>
       </div>
