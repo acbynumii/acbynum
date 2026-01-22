@@ -18,8 +18,8 @@ export default function Research() {
           <ProjectCard
             title="MIT Department of Aeronautics and Astronautics"
             date="Sep 2025 – present"
-            description="Conducting wind-tunnel experiments and aerodynamic analyses to optimize passive dust-mitigation in off-grid solar systems. Implementing API calls, completing the user registration system, and advancing the frontend for the Achesi Solar Monitoring Network (ASMONET) to support expanded solar and weather data collection and analysis in Ghana."
-            tags={['Aerodynamics', 'Wind Tunnel', 'Solar Systems', 'API Development', 'Frontend']}
+            description="Conducting wind-tunnel experiments and aerodynamic analyses to optimize passive dust-mitigation in off-grid solar systems. Implementing API calls, completing the user registration system, and advancing the frontend for the Ashesi Solar Monitoring Network (ASMONET) to support expanded solar and weather data collection and analysis in Ghana."
+            tags={['Aerodynamics', 'Wind Tunnel', 'Solar Systems', 'API Development', 'Frontend', 'PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript']}
           />
           <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
             <h3 className="mb-2 text-xl font-semibold text-black dark:text-gray-100">
