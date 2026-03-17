@@ -1,6 +1,33 @@
 import ProjectCard from '@/components/ProjectCard';
 import Image from 'next/image';
 
+function FusionViewer({
+  title = 'SCARA Robot Arm – 3D Viewer',
+}: {
+  title?: string;
+}) {
+  return (
+    <div className="w-full flex justify-center">
+      <div className="relative w-full max-w-3xl">
+        <div className="relative w-full overflow-hidden rounded-xl border border-gray-200 bg-black/5 dark:border-gray-700 dark:bg-white/5">
+          <iframe
+            src="https://college833.autodesk360.com/shares/public/SH90d2dQT28d5b60281192d03158e9fd4a4a?mode=embed"
+            width={800}
+            height={600}
+            allowFullScreen
+            frameBorder="0"
+            className="w-full h-[min(70vh,600px)]"
+            title={title}
+          />
+        </div>
+        <p className="mt-3 text-center text-sm text-gray-600 dark:text-gray-400">
+          Rotate, zoom, and inspect the SCARA Robot Arm directly in your browser.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export default function Work() {
   return (
     <main className="min-h-screen">
@@ -20,14 +47,15 @@ export default function Work() {
             Engineering Projects
           </h2>
           <div className="grid gap-6 md:grid-cols-2 md:items-start">
-            <ProjectCard
-              title="SCARA Robot Arm"
-              date="Sep 2024 – present"
-              description="Final project for PS70: Introduction to Digital Fabrication. A SCARA-style robotic arm designed for planar motion with vertical actuation and an end-effector for grasping. The robot features multiple degrees of freedom including base rotation, Z-axis vertical movement, end-effector rotation, and a servo-driven claw. Mechanically, the robot is largely 3D printed and uses stepper motors for precise joint control, along with a rotary bearing to support smooth base rotation. The system architecture centers around an ESP32 microcontroller, which handles Bluetooth communication, motor control through stepper drivers, and servo actuation. This allows the robot to perform basic pick-and-place style motions and respond in real time to user input via keyboard controls (w/a/s/d for movement, z/x for end-effector rotation, o/c for claw open/close, spacebar to stop). The project was inspired by a YouTube video demonstrating a compact, DIY SCARA-style robotic arm, and combines mechanical design, electronics, and software into a single integrated system rather than relying on a prebuilt kit."
-              video="/images/SCARA_Demo.mp4"
-              images={['/images/claw.gif']}
-              imageAlt="SCARA Robot Arm Claw"
-              code={`/*
+            <div className="flex flex-col gap-6">
+              <ProjectCard
+                title="SCARA Robot Arm"
+                date="Sep 2024 – present"
+                description="Final project for PS70: Introduction to Digital Fabrication. A SCARA-style robotic arm designed for planar motion with vertical actuation and an end-effector for grasping. The robot features multiple degrees of freedom including base rotation, Z-axis vertical movement, end-effector rotation, and a servo-driven claw. Mechanically, the robot is largely 3D printed and uses stepper motors for precise joint control, along with a rotary bearing to support smooth base rotation. The system architecture centers around an ESP32 microcontroller, which handles Bluetooth communication, motor control through stepper drivers, and servo actuation. This allows the robot to perform basic pick-and-place style motions and respond in real time to user input via keyboard controls (w/a/s/d for movement, z/x for end-effector rotation, o/c for claw open/close, spacebar to stop). The project was inspired by a YouTube video demonstrating a compact, DIY SCARA-style robotic arm, and combines mechanical design, electronics, and software into a single integrated system rather than relying on a prebuilt kit."
+                video="/images/SCARA_Demo.mp4"
+                images={['/images/claw.gif']}
+                imageAlt="SCARA Robot Arm Claw"
+                code={`/*
 Keyboard Control
 Controls z-axis stepper motor via serial input
 'w' - Move up
@@ -241,20 +269,33 @@ stepperZ.run();
 stepperS.run();
 stepperB.run();
 }`}
-              links={[
-                {
-                  label: 'View Project Page',
-                  href: 'https://acbynumii.github.io/ps70-f25/final-project.html',
-                  external: true,
-                },
-                {
-                  label: 'View Code',
-                  href: '#',
-                  code: true,
-                },
-              ]}
-              tags={['PS70', 'Robotics', 'Mechanical Design', 'Electrical Systems', 'Software', 'ESP32', '3D Printing', 'Bluetooth']}
-            />
+                links={[
+                  {
+                    label: 'View Project Page',
+                    href: 'https://acbynumii.github.io/ps70-f25/final-project.html',
+                    external: true,
+                  },
+                  {
+                    label: 'View Code',
+                    href: '#',
+                    code: true,
+                  },
+                ]}
+                tags={[
+                  'PS70',
+                  'Robotics',
+                  'Mechanical Design',
+                  'Electrical Systems',
+                  'Software',
+                  'ESP32',
+                  '3D Printing',
+                  'Bluetooth',
+                ]}
+              />
+
+              <FusionViewer />
+            </div>
+
             <ProjectCard
               title="Competition Robot (Turf-Wars)"
               date="Fall 2024"
@@ -268,7 +309,15 @@ stepperB.run();
                   external: true,
                 },
               ]}
-              tags={['ES51', 'CAD', 'SolidWorks', '3D Printing', 'Laser Cutting', 'CNC', 'Top 3 Finish']}
+              tags={[
+                'ES51',
+                'CAD',
+                'SolidWorks',
+                '3D Printing',
+                'Laser Cutting',
+                'CNC',
+                'Top 3 Finish',
+              ]}
             />
             <ProjectCard
               title="Myoelectric Bionic Hand"
@@ -284,7 +333,13 @@ stepperB.run();
                   external: true,
                 },
               ]}
-              tags={['ES50', 'EMG', 'Arduino', 'Biomedical Engineering', 'Signal Processing']}
+              tags={[
+                'ES50',
+                'EMG',
+                'Arduino',
+                'Biomedical Engineering',
+                'Signal Processing',
+              ]}
             />
           </div>
         </section>
@@ -353,4 +408,3 @@ stepperB.run();
     </main>
   );
 }
-
