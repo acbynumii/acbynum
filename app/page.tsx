@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="space-y-4 text-gray-900 dark:text-gray-400">
               <p>
-                I am a junior studying Mechanical Engineering at Harvard University, from Hilton Head Island, 
+                I am in the class of 2028 studying Mechanical Engineering at Harvard University, from Hilton Head Island, 
                 South Carolina. I&apos;ve developed a passion for engineering through hands-on work in design, 
                 fabrication, and prototyping.
               </p>
