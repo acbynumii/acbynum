@@ -32,14 +32,14 @@ export default function Home() {
               </p>
               <p>
                 One example of that is a myoelectric bionic hand I built as the final project for my Intro to 
-                EE course. Since February 2025, I have also served as a Course Assistant for ES51, Harvard&apos;s 
+                EE course. I have also served as a Course Assistant for ES51 since freshman year, Harvard&apos;s 
                 gateway Mechanical Engineering course.
               </p>
               <p>
-                I am a mechanical engineering intern at General Dynamics Mission Systems, and this summer I 
-                completed the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the fluids and 
-                integration team in the Rocket Propulsion Group, serve on the board for both HSBSE and EESA, 
-                mentor through Curious Cardinals, and dance for Dankira, Harvard&apos;s Habesha dance group.
+                This past summer, I was a Mechanical Engineering Intern at General Dynamics Mission Systems, 
+                simultaneously completing the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the 
+                Fluids and Integration team in the Rocket Propulsion Group, serve on the board for HSBSE and as 
+                ambassador for Curious Cardinals, and source early-stage startups for Harvard&apos;s Venture Capital Group.
               </p>
             </div>
           </div>
