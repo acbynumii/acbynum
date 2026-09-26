@@ -38,8 +38,9 @@ export default function Home() {
               <p>
                 This past summer, I was a Mechanical Engineering Intern at General Dynamics Mission Systems, 
                 simultaneously completing the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the 
-                Fluids and Integration team in the Rocket Propulsion Group, serve on the board for HSBSE and as 
-                ambassador for Curious Cardinals, and source early-stage startups for Harvard&apos;s Venture Capital Group.
+                Fluids and Integration team in the Rocket Propulsion Group, serve as an NSBE Senator and as 
+                ambassador for Curious Cardinals, source early-stage startups as an analyst for Harvard Venture Capital Group, 
+                and scout for Dorm Room Fund.
               </p>
             </div>
           </div>
@@ -111,14 +112,16 @@ export default function Home() {
                 General Dynamics Mission Systems
               </h3>
               <p className="text-sm text-gray-900 dark:text-gray-400">
-                Mechanical Engineering Intern | May 2026 – present
+                Engineering Intern | Greensboro, NC | May 2026 – present
               </p>
               <p className="mt-2 text-gray-900 dark:text-gray-400">
-                Mechanical engineering internship, started May 2026.
+                Designed mechanical assemblies in SolidWorks and architected a Python-Blender automation pipeline via Claude MCP for mission scenario visualization. Executed trade studies and integration for an undersea demonstration, compiling COTS vehicle options and a bill of materials.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mechanical Engineering</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Internship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Python</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Blender</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Trade Studies</span>
               </div>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
@@ -164,9 +167,9 @@ export default function Home() {
               </h3>
               <p className="text-sm text-gray-900 dark:text-gray-400">Feb 2025 – present</p>
               <p className="mt-2 text-gray-900 dark:text-gray-400">
-                Introduced 40+ students to topics such as CAD, 3D printing, GD&T, technical 
-                drawings, and machining (CNC and manual). Facilitated hands-on learning in weekly 
-                labs, provided office hours, and graded homework, design notebooks, and projects.
+                Introduced 100+ students to topics such as CAD, 3D printing, GD&T, technical 
+                drawings, and CNC machining. Facilitated hands-on learning in weekly 
+                labs, hosted office hours, and graded homework, design notebooks, and projects.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
@@ -178,22 +181,36 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Mech Tech
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Harvard SEAS | Sep 2026 – present
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Perform maintenance and repairs on 3D printers and install digital readout systems on manual lathes, while supporting shop operations and occasionally assisting with design and fabrication.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Lathe</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Machine Shop</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Harvard Rocket Propulsion Group
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Fluids and Integration Team Lead | Sep 2024 – present
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Constructed a high-power, liquid-bipropellant rocket, using CAD, machining tools, 
-                and 3D printing. Co-designed a liquid rocket injector in SolidWorks, incorporating 
-                CFD analysis results to enhance combustion efficiency.
+                Fabricated components for a high-power liquid-bipropellant rocket, including lathe-turning a propellant piston and waterjet-cutting bulkheads, brackets, and thrust chamber flange plates. Conducted a test fire of the bipropellant engine, including propellant loading, tank pressurization, and ignition loading. Co-designed a liquid rocket injector in SolidWorks, incorporating CFD analysis to improve combustion efficiency. We are getting ready to compete in the next 10k COTS solid rocket competition under IREC.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CFD</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Machining</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Waterjet</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">IREC</span>
                 <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
               </div>
             </div>
@@ -202,7 +219,7 @@ export default function Home() {
                 Engineers Without Borders
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Kenya Project | Sep 2025 – present
+                Kenya Project | Sep 2025 – May 2026
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
                 Used Revit to design and model water kiosks for EWB&apos;s Kenya project, improving 
@@ -216,35 +233,48 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Harvard Undergraduate Automotive Society
+                Harvard Society of Black Scientists and Engineers
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Brake Pedal Team | Sep 2024 – Sep 2025
+                NSBE Senator
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Designed the brake pedal system for a Formula SAE car in SolidWorks, balancing 
-                space limits with comfort and safety.
+                Previously Mentorship Chair, coordinating bonding and peer advising. As NSBE Senator, I handle logistics for the annual career fair, getting students there and registered, and professionally preparing them for the fair.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Formula SAE</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Automotive Design</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">NSBE</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Career Fair</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
               </div>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Harvard Society of Black Scientists and Engineers
+                Harvard Venture Capital Group
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Mentorship Chair | May 2025 – present
+                Analyst | Sep 2026 – present
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Facilitating mentorship and engagement among students by coordinating bonding 
-                and peer advising programs.
+                Sourcing early-stage startups for a number of partner firms.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Venture Capital</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Sourcing</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Dorm Room Fund
+              </h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Venture Scout
+              </p>
+              <p className="mt-2 text-gray-600 dark:text-gray-400">
+                Venture Scout for Dorm Room Fund.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Venture Scout</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Startups</span>
               </div>
             </div>
             <DankiraCard />

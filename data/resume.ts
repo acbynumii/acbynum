@@ -48,13 +48,15 @@ export const education: Education[] = [
 export const workExperience: WorkExperience[] = [
   {
     company: "General Dynamics Mission Systems",
-    position: "Mechanical Engineering Intern",
+    position: "Engineering Intern",
+    location: "Greensboro, NC",
     startDate: "May 2026",
     endDate: "Present",
     description: [
-      "Mechanical engineering internship, started May 2026.",
+      "Designed mechanical assemblies in SolidWorks and architected a Python-Blender automation pipeline via Claude MCP for mission scenario visualization.",
+      "Executed trade studies and integration for an undersea demonstration, compiling COTS vehicle options and a bill of materials.",
     ],
-    technologies: ["Mechanical Engineering"],
+    technologies: ["SolidWorks", "Python", "Blender"],
   },
   {
     company: "The Takeoff Institute",
