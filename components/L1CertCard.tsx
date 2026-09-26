@@ -1,14 +1,14 @@
 export default function L1CertCard() {
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-all hover:shadow-lg dark:border-gray-800 dark:bg-gray-900">
-      <div className="overflow-hidden bg-gray-50 p-2 dark:bg-gray-950">
-        <div className="relative w-full overflow-hidden rounded bg-black" style={{ aspectRatio: '9/16' }}>
+      <div className="flex items-center justify-center overflow-hidden bg-gray-50 p-2 dark:bg-gray-950">
+        <div className="relative flex w-full items-center justify-center overflow-hidden rounded bg-black" style={{ aspectRatio: '4/3' }}>
           <video
             src="/images/L1_Cert_Launch.mp4"
             controls
             playsInline
             preload="metadata"
-            className="h-full w-full object-contain"
+            className="h-full w-auto max-w-full"
             aria-label="Level 1 certification launch on an H-219 motor"
           >
             Your browser does not support the video tag.
