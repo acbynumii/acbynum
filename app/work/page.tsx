@@ -297,6 +297,7 @@ stepperB.run();
               <FusionViewer />
             </div>
 
+            <div className="flex flex-col gap-6">
             <ProjectCard
               title="Competition Robot (Turf-Wars)"
               date="Fall 2024"
@@ -320,6 +321,8 @@ stepperB.run();
                 'Top 3 Finish',
               ]}
             />
+            <L1CertCard />
+            </div>
             <ProjectCard
               title="Myoelectric Bionic Hand"
               date="Spring 2025"
@@ -342,7 +345,6 @@ stepperB.run();
                 'Signal Processing',
               ]}
             />
-            <L1CertCard />
           </div>
         </section>
 
