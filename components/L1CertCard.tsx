@@ -13,11 +13,14 @@ export default function L1CertCard() {
           <h3 className="mb-2 text-xl font-semibold text-black dark:text-gray-100">
             Level 1 Certification
           </h3>
-          <p className="mb-4 text-sm text-gray-500 dark:text-gray-400">H-219 motor</p>
+          <p className="mb-4 text-sm text-gray-500 dark:text-gray-400">NAR | May 2026 | H-219 motor</p>
           <p className="mb-4 text-gray-900 dark:text-gray-400">
-            Level 1 high-power rocketry certification flight on an H-219 motor.
+            National Association of Rocketry Level 1 certification, flown in May 2026 on an H-219 motor.
           </p>
           <div className="mb-4 flex flex-wrap gap-2">
+            <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+              NAR
+            </span>
             <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">
               Level 1
             </span>
