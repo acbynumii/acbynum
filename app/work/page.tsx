@@ -50,7 +50,7 @@ export default function Work() {
             <div className="flex flex-col gap-6">
               <ProjectCard
                 title="SCARA Robot Arm"
-                date="Sep 2024 – present"
+                date="Fall 2025"
                 description="Final project for PS70: Introduction to Digital Fabrication. A SCARA-style robotic arm designed for planar motion with vertical actuation and an end-effector for grasping. The robot features multiple degrees of freedom including base rotation, Z-axis vertical movement, end-effector rotation, and a servo-driven claw. Mechanically, the robot is largely 3D printed and uses stepper motors for precise joint control, along with a rotary bearing to support smooth base rotation. The system architecture centers around an ESP32 microcontroller, which handles Bluetooth communication, motor control through stepper drivers, and servo actuation. This allows the robot to perform basic pick-and-place style motions and respond in real time to user input via keyboard controls (w/a/s/d for movement, z/x for end-effector rotation, o/c for claw open/close, spacebar to stop). The project was inspired by a YouTube video demonstrating a compact, DIY SCARA-style robotic arm, and combines mechanical design, electronics, and software into a single integrated system rather than relying on a prebuilt kit."
                 video="/images/SCARA_Demo.mp4"
                 images={['/images/claw.gif']}

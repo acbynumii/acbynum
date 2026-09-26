@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Anthony Bynum | Engineering Portfolio",
-  description: "Harvard College Class of 2028 | Mechanical Engineering S.B. Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship.",
+  description: "Harvard College Class of 2028 junior studying Mechanical Engineering. Mechanical engineering intern at General Dynamics Mission Systems. Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship.",
   authors: [{ name: "Anthony Bynum" }],
   keywords: ["Anthony Bynum", "Harvard", "Mechanical Engineering", "Engineering Portfolio"],
 };

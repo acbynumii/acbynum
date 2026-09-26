@@ -23,6 +23,9 @@ export default function Hero() {
             <p className="mt-2 text-lg text-gray-900 dark:text-gray-400">
               Harvard College Class of 2028 | Mechanical Engineering S.B.
             </p>
+            <p className="mt-1 text-base text-gray-900 dark:text-gray-400">
+              Mechanical Engineering Intern, General Dynamics Mission Systems
+            </p>
             <p className="mt-4 text-base text-gray-900 dark:text-gray-400">
               acbynum@college.harvard.edu | (843) 338-4445
             </p>

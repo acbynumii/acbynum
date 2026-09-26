@@ -26,18 +26,20 @@ export default function Home() {
             </div>
             <div className="space-y-4 text-gray-900 dark:text-gray-400">
               <p>
-                I am a rising sophomore studying Mechanical Engineering at Harvard University. 
-                I currently live in Hilton Head Island, South Carolina. I've developed a passion 
-                for engineering through hands-on work in design, fabrication, and prototyping.
+                I am a junior studying Mechanical Engineering at Harvard University, from Hilton Head Island, 
+                South Carolina. I&apos;ve developed a passion for engineering through hands-on work in design, 
+                fabrication, and prototyping.
               </p>
               <p>
-                One example of that is a myoelectric bionic hand I built as part of my final project 
-                for my Intro to EE course. In Spring 2025, I also served as a Course Assistant for ES51, Harvard's 
+                One example of that is a myoelectric bionic hand I built as the final project for my Intro to 
+                EE course. Since February 2025, I have also served as a Course Assistant for ES51, Harvard&apos;s 
                 gateway Mechanical Engineering course.
               </p>
               <p>
-                Beyond the classroom, I lead the fluids and integration team in the Rocket Propulsion Group, 
-                serve on the board for both HSBSE and EESA, and dance for Dankira, Harvard's Habesha dance group.
+                I am a mechanical engineering intern at General Dynamics Mission Systems, and this summer I 
+                completed the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the fluids and 
+                integration team in the Rocket Propulsion Group, serve on the board for both HSBSE and EESA, 
+                mentor through Curious Cardinals, and dance for Dankira, Harvard&apos;s Habesha dance group.
               </p>
             </div>
           </div>
@@ -106,6 +108,58 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                General Dynamics Mission Systems
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Mechanical Engineering Intern | May 2026 – present
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Mechanical engineering internship, started May 2026.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mechanical Engineering</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Internship</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                The Takeoff Institute
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Takeoff Fellow | May 2026 – Aug 2026
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Selected for the 2026 Summer Fellowship, an eight-week cohort of 50 fellows chosen from 
+                more than 600 applicants. The program centers on real projects and advising; I was mentored 
+                by Dr. Monica Moody Moore.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Fellowship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Curious Cardinals
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Mentor and Harvard Ambassador | Apr 2025 – present
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Mentored a student through the design and launch of a 3D-printed model rocket, from Onshape 
+                CAD and OpenRocket simulation through a successful recovery. I also support students in math 
+                tutoring, college application coaching, and executive functioning, and refer new mentors as 
+                Harvard&apos;s ambassador.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Onshape</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">OpenRocket</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Teaching Assistant for ES51: Computer-Aided Machine Design
               </h3>
               <p className="text-sm text-gray-900 dark:text-gray-400">Feb 2025 – present</p>
@@ -151,7 +205,7 @@ export default function Home() {
                 Kenya Project | Sep 2025 – present
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Used Revit to design and model water kiosks for EWB's Kenya project, improving 
+                Used Revit to design and model water kiosks for EWB&apos;s Kenya project, improving 
                 clean water access in remote villages.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">

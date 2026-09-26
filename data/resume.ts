@@ -33,7 +33,7 @@ export const personalInfo = {
   location: "Harvard College",
   classYear: "2028",
   email: "acbynum@college.harvard.edu", // Placeholder - update with actual email
-  bio: "Harvard College Class of 2028 | Mechanical Engineering S.B. and Computer Science. Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship.",
+  bio: "Harvard College Class of 2028 junior | Mechanical Engineering S.B. Mechanical engineering intern at General Dynamics Mission Systems. Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship.",
   interests: ["Aerospace", "Sustainability", "AI", "ML", "Arabic", "Basketball", "Mentorship"],
 };
 
@@ -46,7 +46,37 @@ export const education: Education[] = [
 ];
 
 export const workExperience: WorkExperience[] = [
-  // Add work experience from resume - structure ready
+  {
+    company: "General Dynamics Mission Systems",
+    position: "Mechanical Engineering Intern",
+    startDate: "May 2026",
+    endDate: "Present",
+    description: [
+      "Mechanical engineering internship, started May 2026.",
+    ],
+    technologies: ["Mechanical Engineering"],
+  },
+  {
+    company: "The Takeoff Institute",
+    position: "Takeoff Fellow",
+    startDate: "May 2026",
+    endDate: "Aug 2026",
+    description: [
+      "Selected for the 2026 Summer Fellowship, an eight-week cohort of 50 fellows chosen from more than 600 applicants.",
+      "Mentored by Dr. Monica Moody Moore.",
+    ],
+  },
+  {
+    company: "Curious Cardinals",
+    position: "Mentor and Harvard Ambassador",
+    startDate: "Apr 2025",
+    endDate: "Present",
+    description: [
+      "Mentored a student through the design and launch of a 3D-printed model rocket, from Onshape CAD and OpenRocket simulation through a successful recovery.",
+      "Support students in math tutoring, college application coaching, and executive functioning, and refer new mentors as Harvard's ambassador.",
+    ],
+    technologies: ["Onshape", "OpenRocket", "3D Printing"],
+  },
 ];
 
 export const skills: Skill[] = [
