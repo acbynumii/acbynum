@@ -39,8 +39,7 @@ export default function Home() {
                 This past summer, I was a Mechanical Engineering Intern at General Dynamics Mission Systems, 
                 simultaneously completing the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the 
                 Fluids and Integration team in the Rocket Propulsion Group, serve as an NSBE Senator and as 
-                ambassador for Curious Cardinals, source early-stage startups as an analyst for Harvard Venture Capital Group, 
-                and scout for Dorm Room Fund.
+                ambassador for Curious Cardinals, and source early-stage startups as an analyst for Harvard Venture Capital Group.
               </p>
             </div>
           </div>
@@ -78,6 +77,7 @@ export default function Home() {
                     { name: 'Intro to the Mechanics of Solids', code: 'ES120', semester: 'Spring', year: '2026' },
                     { name: 'Intro to Fluid Mechanics and Transport Processes', code: 'ES123', semester: 'Spring', year: '2026' },
                     { name: 'Thermodynamics', code: 'ES181', semester: 'Fall', year: '2025' },
+                    { name: 'Mechanical Systems', code: 'ES125', semester: 'Fall', year: '2026' },
                     { name: 'Digital Fabrication', code: 'PS70', semester: 'Fall', year: '2025' },
                     { name: 'Humanitarian Design Projects', code: 'ES96', semester: 'Fall/Spring', year: '2025/2026' },
                   ]}
@@ -264,17 +264,18 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Dorm Room Fund
+                First-Year Outdoor Program
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Venture Scout
+                FOP Leader
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Venture Scout for Dorm Room Fund.
+                Co-led a 5-day hiking trip for 12 incoming freshmen in northern Vermont.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Venture Scout</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Startups</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">FOP</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Hiking</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
               </div>
             </div>
             <DankiraCard />
