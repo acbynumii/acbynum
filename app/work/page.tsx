@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/ProjectCard';
+import L1CertCard from '@/components/L1CertCard';
 import Image from 'next/image';
 
 function FusionViewer({
@@ -341,6 +342,7 @@ stepperB.run();
                 'Signal Processing',
               ]}
             />
+            <L1CertCard />
           </div>
         </section>
 
