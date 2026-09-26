@@ -33,7 +33,7 @@ export const personalInfo = {
   location: "Harvard College",
   classYear: "2028",
   email: "acbynum@college.harvard.edu", // Placeholder - update with actual email
-  bio: "Harvard College Class of 2028 junior | Mechanical Engineering S.B. Mechanical engineering intern at General Dynamics Mission Systems. Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship.",
+  bio: "Harvard College Class of 2028 junior | Mechanical Engineering S.B. Former mechanical engineering intern at General Dynamics Mission Systems. Interested in Aerospace, Robotics, and Arabic.",
   interests: ["Aerospace", "Sustainability", "AI", "ML", "Arabic", "Basketball", "Mentorship"],
 };
 
@@ -51,7 +51,7 @@ export const workExperience: WorkExperience[] = [
     position: "Engineering Intern",
     location: "Greensboro, NC",
     startDate: "May 2026",
-    endDate: "Present",
+    endDate: "Summer 2026",
     description: [
       "Designed mechanical assemblies in SolidWorks and architected a Python-Blender automation pipeline via Claude MCP for mission scenario visualization.",
       "Executed trade studies and integration for an undersea demonstration, compiling COTS vehicle options and a bill of materials.",

@@ -112,7 +112,7 @@ export default function Home() {
                 General Dynamics Mission Systems
               </h3>
               <p className="text-sm text-gray-900 dark:text-gray-400">
-                Engineering Intern | Greensboro, NC | May 2026 – present
+                Former Engineering Intern | Greensboro, NC | May 2026 – Summer 2026
               </p>
               <p className="mt-2 text-gray-900 dark:text-gray-400">
                 Designed mechanical assemblies in SolidWorks and architected a Python-Blender automation pipeline via Claude MCP for mission scenario visualization. Executed trade studies and integration for an undersea demonstration, compiling COTS vehicle options and a bill of materials.
