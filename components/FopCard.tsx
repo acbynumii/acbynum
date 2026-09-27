@@ -4,9 +4,9 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const photos = [
-  { src: '/images/fop-summit.jpg', alt: 'Summit view on the FOP hiking trip in northern Vermont' },
-  { src: '/images/fop-ridge.jpg', alt: 'FOP group on a rocky ridge in northern Vermont' },
-  { src: '/images/fop-bus.jpg', alt: 'FOP group on the bus to the hiking trip' },
+  { src: '/images/fop-summit.jpg', alt: 'Summit view on the FOP hiking trip in northern Vermont', aspect: 'aspect-[3/4]' },
+  { src: '/images/fop-ridge.jpg', alt: 'FOP group on a rocky ridge in northern Vermont', aspect: 'aspect-[4/3]' },
+  { src: '/images/fop-bus.jpg', alt: 'FOP group on the bus to the hiking trip', aspect: 'aspect-[4/3]' },
 ];
 
 export default function FopCard() {
@@ -38,7 +38,7 @@ export default function FopCard() {
       {photosOpen && (
         <div className="mt-4 grid gap-3">
           {photos.map((photo) => (
-            <div key={photo.src} className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
+            <div key={photo.src} className={`relative ${photo.aspect} w-full overflow-hidden rounded-lg`}>
               <Image src={photo.src} alt={photo.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 40vw" />
             </div>
           ))}
