@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Image from 'next/image';
 import DankiraCard from '@/components/DankiraCard';
+import FopCard from '@/components/FopCard';
 import CourseCarousel from '@/components/CourseCarousel';
 
 export default function Home() {
@@ -39,7 +40,8 @@ export default function Home() {
                 This past summer, I was a Mechanical Engineering Intern at General Dynamics Mission Systems, 
                 simultaneously completing the Takeoff Institute 2026 Summer Fellowship. On campus, I lead the 
                 Fluids and Integration team in the Rocket Propulsion Group, serve as an NSBE Senator and as 
-                ambassador for Curious Cardinals, and source early-stage startups as an analyst for Harvard Venture Capital Group.
+                ambassador for Curious Cardinals, source early-stage startups as an analyst for Harvard Venture Capital Group, 
+                and scout for Collide Capital.
               </p>
             </div>
           </div>
@@ -126,39 +128,21 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                The Takeoff Institute
+                Harvard Rocket Propulsion Group
               </h3>
-              <p className="text-sm text-gray-900 dark:text-gray-400">
-                Takeoff Fellow | May 2026 – Aug 2026
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Fluids and Integration Team Lead | Sep 2024 – present
               </p>
-              <p className="mt-2 text-gray-900 dark:text-gray-400">
-                Selected for the 2026 Summer Fellowship, an eight-week cohort of 50 fellows chosen from 
-                more than 600 applicants. The program centers on real projects and advising; I was mentored 
-                by Dr. Monica Moody Moore.
+              <p className="mt-2 text-gray-600 dark:text-gray-400">
+                Fabricated components for a high-power liquid-bipropellant rocket, including lathe-turning a propellant piston and waterjet-cutting bulkheads, brackets, and thrust chamber flange plates. Conducted a test fire of the bipropellant engine, including propellant loading, tank pressurization, and ignition loading. Co-designed a liquid rocket injector in SolidWorks, incorporating CFD analysis to improve combustion efficiency. We are getting ready to compete in the next 10k COTS solid rocket competition under IREC.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Fellowship</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
-              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Curious Cardinals
-              </h3>
-              <p className="text-sm text-gray-900 dark:text-gray-400">
-                Mentor and Harvard Ambassador | Apr 2025 – present
-              </p>
-              <p className="mt-2 text-gray-900 dark:text-gray-400">
-                Mentored a student through the design and launch of a 3D-printed model rocket, from Onshape 
-                CAD and OpenRocket simulation through a successful recovery. I also support students in math 
-                tutoring, college application coaching, and executive functioning, and refer new mentors as 
-                Harvard&apos;s ambassador.
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Onshape</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">OpenRocket</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CFD</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Waterjet</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">IREC</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
               </div>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
@@ -197,42 +181,6 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Harvard Rocket Propulsion Group
-              </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Fluids and Integration Team Lead | Sep 2024 – present
-              </p>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Fabricated components for a high-power liquid-bipropellant rocket, including lathe-turning a propellant piston and waterjet-cutting bulkheads, brackets, and thrust chamber flange plates. Conducted a test fire of the bipropellant engine, including propellant loading, tank pressurization, and ignition loading. Co-designed a liquid rocket injector in SolidWorks, incorporating CFD analysis to improve combustion efficiency. We are getting ready to compete in the next 10k COTS solid rocket competition under IREC.
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CAD</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">SolidWorks</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">CFD</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Waterjet</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">IREC</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
-              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                Engineers Without Borders
-              </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Kenya Project | Sep 2025 – May 2026
-              </p>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Used Revit to design and model water kiosks for EWB&apos;s Kenya project, improving 
-                clean water access in remote villages.
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Revit</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Design</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Humanitarian Engineering</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
-              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
                 Harvard Society of Black Scientists and Engineers
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -264,18 +212,73 @@ export default function Home() {
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
               <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
-                First-Year Outdoor Program
+                Collide Capital
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                FOP Leader
+                Venture Scout | Fall 2026
               </p>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
-                Co-led a 5-day hiking trip for 12 incoming freshmen in northern Vermont.
+                Source and diligence pre-seed to Series A B2B software startups in fintech, supply chain, and the future of work, and build venture fundamentals in bi-weekly sessions with the investment team.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">FOP</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Hiking</span>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Leadership</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Venture Scout</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Sourcing</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Due Diligence</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Curious Cardinals
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Mentor and Harvard Ambassador | Apr 2025 – present
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Mentored a student through the design and launch of a 3D-printed model rocket, from Onshape 
+                CAD and OpenRocket simulation through a successful recovery. I also support students in math 
+                tutoring, college application coaching, and executive functioning, and refer new mentors as 
+                Harvard&apos;s ambassador.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Onshape</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">OpenRocket</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">3D Printing</span>
+              </div>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Engineers Without Borders
+              </h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Kenya Project | Sep 2025 – May 2026
+              </p>
+              <p className="mt-2 text-gray-600 dark:text-gray-400">
+                Used Revit to design and model water kiosks for EWB&apos;s Kenya project, improving 
+                clean water access in remote villages.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Revit</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Design</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Humanitarian Engineering</span>
+              </div>
+            </div>
+            <FopCard />
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                The Takeoff Institute
+              </h3>
+              <p className="text-sm text-gray-900 dark:text-gray-400">
+                Takeoff Fellow | May 2026 – Aug 2026
+              </p>
+              <p className="mt-2 text-gray-900 dark:text-gray-400">
+                Selected for the 2026 Summer Fellowship, an eight-week cohort of 50 fellows chosen from 
+                more than 600 applicants. The program centers on real projects and advising; I was mentored 
+                by Dr. Monica Moody Moore.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Fellowship</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mentorship</span>
               </div>
             </div>
             <DankiraCard />
