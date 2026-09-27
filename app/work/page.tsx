@@ -354,6 +354,23 @@ stepperB.run();
             Machine Components Gallery
           </h2>
           <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900 md:col-span-2">
+              <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                Lucy Engine
+              </h3>
+              <p className="text-gray-900 dark:text-gray-400">
+                Built during machine shop training on manual lathes and mills. The work included tapping, threading with a die, programming the mill, indicating vises, squaring stock on the mill, deburring, and quality control.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Manual Lathe</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Manual Mill</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Tapping</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Die Threading</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mill Programming</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Deburring</span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">QC</span>
+              </div>
+            </div>
             <div className="space-y-2">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
                 <Image
