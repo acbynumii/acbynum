@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/ProjectCard';
+import L1CertCard from '@/components/L1CertCard';
 import Image from 'next/image';
 
 function FusionViewer({
@@ -50,7 +51,7 @@ export default function Work() {
             <div className="flex flex-col gap-6">
               <ProjectCard
                 title="SCARA Robot Arm"
-                date="Sep 2024 – present"
+                date="Fall 2025"
                 description="Final project for PS70: Introduction to Digital Fabrication. A SCARA-style robotic arm designed for planar motion with vertical actuation and an end-effector for grasping. The robot features multiple degrees of freedom including base rotation, Z-axis vertical movement, end-effector rotation, and a servo-driven claw. Mechanically, the robot is largely 3D printed and uses stepper motors for precise joint control, along with a rotary bearing to support smooth base rotation. The system architecture centers around an ESP32 microcontroller, which handles Bluetooth communication, motor control through stepper drivers, and servo actuation. This allows the robot to perform basic pick-and-place style motions and respond in real time to user input via keyboard controls (w/a/s/d for movement, z/x for end-effector rotation, o/c for claw open/close, spacebar to stop). The project was inspired by a YouTube video demonstrating a compact, DIY SCARA-style robotic arm, and combines mechanical design, electronics, and software into a single integrated system rather than relying on a prebuilt kit."
                 video="/images/SCARA_Demo.mp4"
                 images={['/images/claw.gif']}
@@ -296,6 +297,7 @@ stepperB.run();
               <FusionViewer />
             </div>
 
+            <div className="flex flex-col gap-6">
             <ProjectCard
               title="Competition Robot (Turf-Wars)"
               date="Fall 2024"
@@ -319,6 +321,8 @@ stepperB.run();
                 'Top 3 Finish',
               ]}
             />
+            <L1CertCard />
+            </div>
             <ProjectCard
               title="Myoelectric Bionic Hand"
               date="Spring 2025"
@@ -350,6 +354,37 @@ stepperB.run();
             Machine Components Gallery
           </h2>
           <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 md:col-span-2 md:grid-cols-2 md:items-center">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-black">
+                <video
+                  src="/images/lucy-engine.mp4"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="h-full w-full object-contain"
+                  aria-label="Lucy engine from machine shop training"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div>
+                <h3 className="mb-2 text-lg font-semibold text-black dark:text-gray-100">
+                  Lucy Engine
+                </h3>
+                <p className="text-gray-900 dark:text-gray-400">
+                  Built during machine shop training on manual lathes and mills. The work included tapping, threading with a die, programming the mill, indicating vises, squaring stock on the mill, deburring, and quality control.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Manual Lathe</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Manual Mill</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Tapping</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Die Threading</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Mill Programming</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">Deburring</span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 dark:bg-gray-800 dark:text-gray-300">QC</span>
+                </div>
+              </div>
+            </div>
             <div className="space-y-2">
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
                 <Image

@@ -23,11 +23,14 @@ export default function Hero() {
             <p className="mt-2 text-lg text-gray-900 dark:text-gray-400">
               Harvard College Class of 2028 | Mechanical Engineering S.B.
             </p>
+            <p className="mt-1 text-base text-gray-900 dark:text-gray-400">
+              Former Mechanical Engineering Intern, General Dynamics Mission Systems
+            </p>
             <p className="mt-4 text-base text-gray-900 dark:text-gray-400">
               acbynum@college.harvard.edu | (843) 338-4445
             </p>
             <p className="mt-4 text-base text-gray-900 dark:text-gray-400">
-              Interested in Aerospace, Sustainability, AI, ML, Arabic, Basketball, and Mentorship
+              Interested in Aerospace, Robotics, and Arabic
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:justify-start">
               <Link
