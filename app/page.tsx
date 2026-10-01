@@ -58,7 +58,7 @@ export default function Home() {
                 Harvard University
               </h3>
               <p className="text-gray-900 dark:text-gray-400">
-                Bachelor of Science: Mechanical Engineering, GPA: 3.7
+                Bachelor of Science: Mechanical Engineering, GPA: 3.6
               </p>
               <p className="text-gray-900 dark:text-gray-400">
                 Secondary Field: Computer Science | Citation: Arabic
